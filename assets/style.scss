@@ -1,0 +1,113 @@
+
+ 
+ @import "./scss/material-dashboard.scss";
+ @import "./scss/material-dashboard/bootstrap/scss/alert";
+
+
+@import "./scss/material-dashboard/variables";
+ @import "./scss/material-dashboard/mixins";
+ @import "./scss/material-dashboard/core-bootstrap";
+
+
+@import "./scss/material-dashboard/bootstrap/scss/_alert.scss";
+@import "./scss/material-dashboard/bootstrap/scss/badge";
+@import "./scss/material-dashboard/bootstrap/scss/breadcrumb";
+@import "./scss/material-dashboard/bootstrap/scss/button-group";
+@import "./scss/material-dashboard/bootstrap/scss/buttons";
+@import "./scss/material-dashboard/bootstrap/scss/card";
+@import "./scss/material-dashboard/bootstrap/scss/carousel";
+@import "./scss/material-dashboard/bootstrap/scss/close";
+@import "./scss/material-dashboard/bootstrap/scss/code";
+@import "./scss/material-dashboard/bootstrap/scss/custom-forms";
+@import "./scss/material-dashboard/bootstrap/scss/dropdown";
+@import "./scss/material-dashboard/bootstrap/scss/forms";
+@import "./scss/material-dashboard/bootstrap/scss/functions";
+@import "./scss/material-dashboard/bootstrap/scss/grid";
+@import "./scss/material-dashboard/bootstrap/scss/images";
+@import "./scss/material-dashboard/bootstrap/scss/input-group";
+@import "./scss/material-dashboard/bootstrap/scss/jumbotron";
+@import "./scss/material-dashboard/bootstrap/scss/list-group";
+@import "./scss/material-dashboard/bootstrap/scss/media";
+@import "./scss/material-dashboard/bootstrap/scss/mixins";
+@import "./scss/material-dashboard/bootstrap/scss/modal";
+@import "./scss/material-dashboard/bootstrap/scss/nav";
+@import "./scss/material-dashboard/bootstrap/scss/navbar";
+@import "./scss/material-dashboard/bootstrap/scss/pagination";
+@import "./scss/material-dashboard/bootstrap/scss/popover";
+@import "./scss/material-dashboard/bootstrap/scss/print";
+@import "./scss/material-dashboard/bootstrap/scss/progress";
+@import "./scss/material-dashboard/bootstrap/scss/reboot";
+@import "./scss/material-dashboard/bootstrap/scss/root";
+@import "./scss/material-dashboard/bootstrap/scss/tables";
+@import "./scss/material-dashboard/bootstrap/scss/tooltip";
+@import "./scss/material-dashboard/bootstrap/scss/transitions";
+@import "./scss/material-dashboard/bootstrap/scss/type";
+@import "./scss/material-dashboard/bootstrap/scss/utilities";
+@import "./scss/material-dashboard/bootstrap/scss/variables";
+
+
+@import "./scss/material-dashboard/cards/card-plain";
+@import "./scss/material-dashboard/cards/card-profile";
+@import "./scss/material-dashboard/cards/card-stats";
+
+
+@import "./scss/material-dashboard/";
+
+
+
+
+// Core Components
+ @import "./scss/material-dashboard/buttons";
+ @import "./scss/material-dashboard/checkboxes";
+ @import "./scss/material-dashboard/radios";
+ @import "./scss/material-dashboard/forms";
+ @import "./scss/material-dashboard/input-group";
+ @import "./scss/material-dashboard/images";
+ @import "./scss/material-dashboard/navbar";
+ @import "./scss/material-dashboard/alerts";
+ @import "./scss/material-dashboard/headers";
+ @import "./scss/material-dashboard/type";
+ @import "./scss/material-dashboard/tabs";
+ @import "./scss/material-dashboard/tooltip";
+ @import "./scss/material-dashboard/popover";
+ @import "./scss/material-dashboard/dropdown";
+ @import "./scss/material-dashboard/togglebutton";
+ @import "./scss/material-dashboard/ripples";
+ @import "./scss/material-dashboard/footers";
+ @import "./scss/material-dashboard/sidebar-and-main-panel";
+ @import "./scss/material-dashboard/fixed-plugin";
+ @import "./scss/material-dashboard/tables";
+ @import "./scss/material-dashboard/misc";
+ @import "./scss/material-dashboard/social-buttons";
+
+@import "./scss/material-dashboard/cards";
+@import "./scss/material-dashboard/cards/card-stats";
+@import "./scss/material-dashboard/cards/card-profile";
+@import "./scss/material-dashboard/cards/card-plain";
+
+ //plugin scss
+ @import "./scss/material-dashboard/plugins/animate";
+ @import "./scss/material-dashboard/plugins/chartist";
+ @import "./scss/material-dashboard/plugins/perfect-scrollbar";
+
+ @import "./scss/material-dashboard/responsive";
+
+
+@import "./scss/material-dashboard.css";
+@import "./scss/material-dashboard.scss";
+@import "./scss/material-dashboard/alerts";
+@import "./scss/material-dashboard/buttons";
+@import "./scss/material-dashboard/cards";
+@import "./scss/material-dashboard/checkboxes";
+@import "./scss/material-dashboard/core-bootstrap";
+@import "./scss/material-dashboard/dropdown";
+@import "./scss/material-dashboard/example-pages";
+@import "./scss/material-dashboard/fixed-plugin";
+@import "./scss/material-dashboard/footers";
+@import "./scss/material-dashboard/forms";
+@import "./scss/material-dashboard/headers";
+@import "./scss/material-dashboard/images";
+
+@import "./scss/aura.scss";
+
+@import "./demo/demo.scss";
