@@ -8,3 +8,18 @@
 }
 
 
+.scramble-content {
+    text-align: center;
+    position: relative;
+    top: 50%; 
+}
+
+.header-txt, .header-txt__sub {
+    color: white;
+    font-family: 'Unica One', cursive;
+    font-size: 3rem;
+    margin: auto;
+    text-align: center; }
+    .header-txt__sub {
+      text-align: center;
+      font-size: 2rem; }
