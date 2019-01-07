@@ -19,7 +19,9 @@
     font-family: 'Unica One', cursive;
     font-size: 3rem;
     margin: auto;
-    text-align: center; }
+    text-align: center; 
+}
     .header-txt__sub {
       text-align: center;
-      font-size: 2rem; }
+      font-size: 2rem; 
+    }
