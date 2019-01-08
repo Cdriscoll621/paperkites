@@ -1,4 +1,12 @@
 
+body{
+    margin: 0;
+  }
+
+canvas {
+    width: 100%;
+    z-index: 1;
+}
 .black-section {
     background-color: #4A5448;
     color: white;
