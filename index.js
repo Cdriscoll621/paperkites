@@ -84,12 +84,8 @@ function Bubble(x,y,radius,color, speed, moveSpeedX, moveSpeedY){
     }
     
     if(this.radius < 2){
-      //this.speed = rndArray(speeds) * -1
       this.speed = -this.speed
-      /*this.moveSpeed = rndInt(-2,2)
-      this.color = rndArray(colors)
-      this.y = rndInt(0 + this.radius, canvas.height - this.radius)
-      this.x = rndInt(0 + this.radius, canvas.width - this.radius)*/
+  
     }
     
     if(this.x < 0 - this.radius){
