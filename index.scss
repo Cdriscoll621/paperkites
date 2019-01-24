@@ -70,6 +70,21 @@ canvas {
       }
       
 
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       * {
         font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console",
@@ -87,13 +102,7 @@ canvas {
       $background-light: #ffa726;
       $background-dark: #ff9800;
       
-      body {
-        background-image: linear-gradient(
-          to bottom right,
-          $background-dark,
-          $background-light
-        );
-      }
+   
       
       @mixin text-color($color) {
         color: $color;
@@ -119,7 +128,7 @@ canvas {
         @include text-color($red);
       }
       
-      .content {
+      .flip-content {
         height: 100vh;
         @include text-color(white);
       
@@ -128,7 +137,7 @@ canvas {
         align-items: center;
       }
       
-      .card {
+      .flip {
         //FUNCTIONALITY
         perspective: 150rem;
         height: 20rem;
@@ -197,3 +206,59 @@ canvas {
           }
         }
       }
+      
+
+
+
+
+
+
+
+
+/* Draggable menu */
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+$itemSize: 40px;
+
+      .center {
+        position: absolute;
+        // margin: auto;
+        // top: 0;
+        // right: 0;
+        // bottom: 0;
+        // left: 0;
+    }
+    
+    .menu {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .title {
+        width: 300px;
+        height: 10px;
+        top: 60px;
+    }
+    
+    .item {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: $itemSize;
+        height: $itemSize;
+        background-color: white;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        cursor: pointer;
+        text-align: center;
+        line-height: $itemSize;
+    }
+    
+    i {
+        font-size: 0.6 * $itemSize;
+        color: #222222;
+    }
+
+
+    /* ---------------- */
