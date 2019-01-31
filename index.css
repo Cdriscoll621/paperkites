@@ -28,34 +28,7 @@ canvas {
   text-align: center;
   font-size: 2rem; }
 
-.print-border-top {
-  border: 15px solid #60be72;
-  padding: 10px 10px 10px 10px;
-  margin: 0 auto;
-  font-family: Helvetica, Arial, sans-serif;
-  width: 720px; }
 
-.print-border-bottom {
-  border: 5px solid #60be72;
-  padding: 40px 30px 10px 10px;
-  margin: 0px auto 10px auto;
-  font-family: Helvetica, Arial, sans-serif;
-  width: 650px; }
-
-.print-center {
-  text-align: center; }
-
-.print-img {
-  width: 600px;
-  height: auto; }
-
-.print-text {
-  font-family: 'Nanum Gothic', sans-serif;
-  font-size: 18pt; }
-
-.print-logo {
-  width: 400px;
-  height: auto; }
 
 * {
   font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
