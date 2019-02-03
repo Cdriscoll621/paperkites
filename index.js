@@ -41,10 +41,6 @@ $(document).ready(function(){
       
   });
 
-
-
-
-
   /* Bubbles */
 
 var canvas = document.querySelector('canvas')
@@ -324,3 +320,7 @@ $(document).delay(50).queue(function(next) {
 
 
 /* ------------------------------- */
+
+
+
+
