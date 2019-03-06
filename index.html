@@ -309,5 +309,70 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-
-
+<div class="hidden-desktop">
+	<div class="sidebar" data-color="purple" data-background-color="white" data-image="../assets/img/sidebar-1.jpg">
+		<div class="logo">
+			<a href="/" class="simple-text logo-mini ">
+				SCACPA
+			</a>
+			<a href="/" class="logo-normal">
+				<img src="/images/scacpa-logo-new.png" class="pb-3 mx-auto d-block visible-sm visible-md visible-lg">
+			</a>
+		</div>
+		<div class="sidebar-wrapper">
+			<ul class="nav">
+				<li class="nav-item border-bottom border-top">
+					<a class="nav-link" data-toggle="collapse" href="#formsExamples">
+						<i class="material-icons">person</i>
+						<p>
+						  @if (ViewBag?.currentUser?.FirstName != null)
+							{
+								  @ViewBag.currentUser.FirstName
+							}
+							<b class="caret"></b>
+						</p>
+					</a>
+	
+					<div class="collapse" id="formsExamples">
+						<ul class="nav">
+							<li class="nav-item ">
+									<span class="sidebar-mini"> <i class="material-icons pr-2 ">face</i> </span>
+									<span class="sidebar-normal"> My Account</span>
+								</a>
+							</li>
+							<li class="nav-item ">
+								<a class="nav-link" href="/Account/Logout">
+									<span class="sidebar-mini"> <i class="material-icons pr-2 ">exit_to_app</i> </span>
+									<span class="sidebar-normal"> Log Out</span>
+								</a>
+							</li>
+	
+						</ul>
+					</div>
+				</li>
+				<!-- your sidebar here -->
+			</ul>
+			<ul class="nav navbar-nav nav-mobile-menu">
+				@await Component.InvokeAsync("Navigation")
+			</ul>
+		</div>
+		<div class="sidebar-background" style="background-image: url(../assets/img/sidebar-1.jpg) "></div>
+	</div>
+	</div>
+	<nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top " id="navigation-example">
+		<div class="container">
+				<a class="navbar-brand mobile-nav home-media" href="/"><img src="/images/scacpa-logo-new.png" class="pb-3 mx-auto d-block visible-sm" style=""></a>
+	
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index"
+				aria-expanded="false" aria-label="Toggle navigation" data-target="#navigation-example">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="navbar-toggler-icon icon-bar"></span>
+				<span class="navbar-toggler-icon icon-bar"></span>
+				<span class="navbar-toggler-icon icon-bar"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end">
+	
+			</div>
+		</div>
+	</nav>
